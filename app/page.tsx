@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { Github, Linkedin, Youtube, Calendar, Bot, User, QrCode, X, ArrowRight, Music, Pause, FileText } from "lucide-react";
+import { Github, Linkedin, Bot, User, FileText } from "lucide-react";
 import { FaXTwitter } from "react-icons/fa6";
 import { ExperienceItem } from "./components/ExperienceItem";
 import { GithubGraph } from "./components/GithubGraph";
@@ -408,7 +408,7 @@ export default function Home() {
       </AnimatePresence>
 
       {/* Glass Island Navbar */}
-      <nav className="fixed bottom-6 left-1/2 flex -translate-x-1/2 items-center gap-3 rounded-full border border-gray-200 dark:border-zinc-700 bg-white/70 dark:bg-zinc-900/80 px-4 py-3 shadow-sm backdrop-blur-md transition-all hover:bg-white/90 dark:hover:bg-zinc-900 sm:gap-6 sm:px-6">
+      <nav className="fixed bottom-6 left-1/2 flex -translate-x-1/2 items-center gap-5 rounded-full border border-gray-200 dark:border-zinc-700 bg-white/70 dark:bg-zinc-900/80 px-4 py-3 shadow-sm backdrop-blur-md transition-all hover:bg-white/90 dark:hover:bg-zinc-900 sm:gap-6 sm:px-6">
         {/* Mode Toggle Switch */}
         <div className="flex items-center">
           <button
