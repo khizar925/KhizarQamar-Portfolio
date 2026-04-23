@@ -23,6 +23,7 @@ const categories = [
         skills: [
             { name: "React", slug: "react" },
             { name: "Next.js", slug: "nextdotjs" },
+            { name: "React Native", slug: "reactnative" },
             { name: "Tailwind CSS", slug: "tailwindcss" },
             { name: "Shadcn UI", slug: "shadcnui" },
         ]

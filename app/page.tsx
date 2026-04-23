@@ -205,8 +205,7 @@ export default function Home() {
                 applications, building production-ready systems end to end.
               </p>
               <p>
-                experienced in next.js, react, node.js, and aws, with industry exposure from
-                an internship at{" "}
+                interned at{" "}
                 <HoverCard>
                   <HoverCardTrigger asChild>
                     <a
@@ -224,8 +223,7 @@ export default function Home() {
                     </p>
                   </HoverCardContent>
                 </HoverCard>{" "}
-                and projects spanning rag-based chat systems and real-time interview
-                simulators.
+                and datarigel — building production-ready apis, iot-integrated mobile apps, and ai-powered platforms using next.js, react native, node.js, and aws.
               </p>
             </div>
 
@@ -238,6 +236,21 @@ export default function Home() {
               </h2>
               <div className="space-y-12">
                 <ExperienceItem
+                  title="DataRigel"
+                  role="Lahore, Pakistan"
+                  collapsible={true}
+                  link=""
+                >
+                  <div className="space-y-2">
+                    <p>Software Engineer Intern</p>
+                    <p>Feb 2026 – Apr 2026</p>
+                    <p>• Shipped 8+ production features for an Android IoT app using React Native and TypeScript, integrating real-time data streaming from pressure and air sensors across 4 agile sprints.</p>
+                    <p>• Resolved 8–10 bugs through APK-level QA cycles in collaboration with the testing team, improving app stability and reducing post-release defects.</p>
+                    <p>• Streamlined IoT device communication layer enabling live sensor data exchange between hardware and mobile interface, eliminating manual data handling.</p>
+                  </div>
+                </ExperienceItem>
+
+                <ExperienceItem
                   title="Netsol Technologies Inc."
                   role="Lahore, Pakistan"
                   collapsible={true}
@@ -245,10 +258,10 @@ export default function Home() {
                 >
                   <div className="space-y-2">
                     <p>Software Engineer Intern</p>
-                    <p>July 2025 – Aug 2025</p>
-                    <p>• Engineered RESTful APIs using Node.js and Express.js, connecting PostgreSQL database to React frontend, reducing latency by 15% during peak usage.</p>
+                    <p>Jul 2025 – Aug 2025</p>
+                    <p>• Architected RESTful APIs using Node.js and Express.js, connecting PostgreSQL database to React frontend, reducing latency by 15% during peak usage.</p>
                     <p>• Constructed 3+ internal utility tools and backend services under mentorship, improving system functionality and reducing maintenance time by 30%.</p>
-                    <p>• Enhanced server-side logic and optimized relational data models, integrating 5+ frontend interfaces with backend APIs to support real-time data updates and seamless user interactions.</p>
+                    <p>• Optimized relational data models, integrating 5+ frontend interfaces with backend APIs to support real-time data updates and seamless user interactions.</p>
                   </div>
                 </ExperienceItem>
               </div>
@@ -261,28 +274,66 @@ export default function Home() {
               </h2>
               <div className="space-y-12">
                 <ExperienceItem
+                  title="SmartHire"
+                  role="Next.js 16, TypeScript, Supabase, Gemini API, Clerk, Tailwind CSS, Vercel"
+                  collapsible={true}
+                  link="https://smarthire.website/"
+                >
+                  <div className="space-y-2">
+                    <p>• Cut resume screening time by 78% — ranked 100 applications in under 3 seconds via NLP semantic matching, replacing 3–5 hours of manual recruiter review.</p>
+                    <p>• Launched an end-to-end 6-stage AI recruitment pipeline with 19 REST API endpoints, 8 feature modules, and dual role-based workflows for recruiters and candidates using Next.js 16 and FastAPI.</p>
+                    <p>• Authored 38 reusable TypeScript React components with shadcn/ui and React Query caching, powering 12 responsive dashboard pages across recruiter and candidate roles.</p>
+                    <p className="pt-1">
+                      <a href="https://github.com/khizar925/SmartHire" target="_blank" rel="noopener noreferrer" className="underline underline-offset-4 hover:text-black dark:hover:text-white transition-colors mr-4">GitHub</a>
+                      <a href="https://smarthire.website/" target="_blank" rel="noopener noreferrer" className="underline underline-offset-4 hover:text-black dark:hover:text-white transition-colors">Live Demo</a>
+                    </p>
+                  </div>
+                </ExperienceItem>
+
+                <ExperienceItem
                   title="AskYourDocs"
                   role="Next.js, FastAPI, ChromaDB, Ollama, AWS EC2, Clerk, Supabase"
                   collapsible={true}
-                  link="https://github.com/khizar925/rag-chat-ai-webapp"
+                  link="https://rag-chat-ai-webapp.vercel.app/"
                 >
                   <div className="space-y-2">
-                    <p>• Built a document Q&A application using Retrieval-Augmented Generation (RAG) with ChromaDB vector database and FastAPI backend to enable semantic search and context-aware responses from uploaded PDFs.</p>
-                    <p>• Deployed a local AI model (qwen2.5-coder:1.5b) on AWS EC2 using Ollama for 100% private inference, ensuring user documents remain confidential.</p>
-                    <p>• Integrated Next.js 16 with Clerk authentication and Supabase for real-time message streaming and user session management with sub-500ms auth latency.</p>
+                    <p>• Implemented a document Q&A app using RAG with ChromaDB vector database and FastAPI to enable semantic search and context-aware responses from uploaded PDFs.</p>
+                    <p>• Deployed a local AI model on AWS EC2 via Ollama for 100% private inference; integrated Clerk auth and Supabase for real-time streaming with sub-500ms auth latency.</p>
+                    <p className="pt-1">
+                      <a href="https://github.com/khizar925/rag-chat-ai-webapp" target="_blank" rel="noopener noreferrer" className="underline underline-offset-4 hover:text-black dark:hover:text-white transition-colors mr-4">GitHub</a>
+                      <a href="https://rag-chat-ai-webapp.vercel.app/" target="_blank" rel="noopener noreferrer" className="underline underline-offset-4 hover:text-black dark:hover:text-white transition-colors">Live Demo</a>
+                    </p>
+                  </div>
+                </ExperienceItem>
+
+                <ExperienceItem
+                  title="ResumeBoost"
+                  role="React, Node.js, LLM"
+                  collapsible={true}
+                  link="https://resume-boost-theta.vercel.app/"
+                >
+                  <div className="space-y-2">
+                    <p>• Built an AI-powered resume optimizer that converts poor ATS-formatted resumes into well-structured, high-scoring ATS resumes using LLM-driven analysis and formatting.</p>
+                    <p className="pt-1">
+                      <a href="https://github.com/khizar925/ResumeBoost" target="_blank" rel="noopener noreferrer" className="underline underline-offset-4 hover:text-black dark:hover:text-white transition-colors mr-4">GitHub</a>
+                      <a href="https://resume-boost-theta.vercel.app/" target="_blank" rel="noopener noreferrer" className="underline underline-offset-4 hover:text-black dark:hover:text-white transition-colors">Live Demo</a>
+                    </p>
                   </div>
                 </ExperienceItem>
 
                 <ExperienceItem
                   title="MockHire"
-                  role="React, Node.js, AI APIs, Express.js, Clerk Auth, Tailwind CSS"
+                  role="React, Node.js, Express.js, Clerk, Tailwind CSS"
                   collapsible={true}
                   link="https://mock-hire-frontend.vercel.app/"
                 >
                   <div className="space-y-2">
-                    <p>• Developed an AI-powered real-time mock interview simulator enabling users to practice with an AI interviewer and receive instant, personalized feedback.</p>
-                    <p>• Integrated voice interaction, emotion detection, and adaptive questioning to create a realistic interview environment with secure authentication using Clerk and JWT to manage user sessions and track performance history.</p>
-                    <p>• Designed an intuitive dashboard with progress tracking, increasing user engagement and interview readiness by 35%.</p>
+                    <p>• Designed an AI-powered mock interview simulator with voice interaction, emotion detection, and adaptive questioning, increasing interview readiness by 35%.</p>
+                    <p>• Secured sessions with Clerk and JWT; crafted a progress-tracking dashboard to monitor performance history across sessions.</p>
+                    <p className="pt-1">
+                      <a href="https://github.com/khizar925/mockhire" target="_blank" rel="noopener noreferrer" className="underline underline-offset-4 hover:text-black dark:hover:text-white transition-colors mr-4">GitHub</a>
+                      <a href="https://mock-hire-frontend.vercel.app/" target="_blank" rel="noopener noreferrer" className="underline underline-offset-4 hover:text-black dark:hover:text-white transition-colors">Live Demo</a>
+                    </p>
                   </div>
                 </ExperienceItem>
 
@@ -296,6 +347,9 @@ export default function Home() {
                     <p>• Built a customizable dashboard with 2+ modular gadgets using React and DaisyUI, improving UI scalability and reducing development time by 25%.</p>
                     <p>• Integrated Gemini API for AI-driven conversational gadgets, enabling real-time intelligent interactions and enhancing engagement by 40%.</p>
                     <p>• Secured user access with JWT authentication, Google OAuth, and bcrypt encryption, reducing unauthorized API access attempts by 90%.</p>
+                    <p className="pt-1">
+                      <a href="https://github.com/khizar925/gadgetboard" target="_blank" rel="noopener noreferrer" className="underline underline-offset-4 hover:text-black dark:hover:text-white transition-colors">GitHub</a>
+                    </p>
                   </div>
                 </ExperienceItem>
               </div>
@@ -314,6 +368,33 @@ export default function Home() {
                 >
                   <p>2022 - 2026</p>
                 </ExperienceItem>
+              </div>
+            </div>
+
+            {/* Certifications Section */}
+            <div className="mb-16 w-full text-left">
+              <h2 className="mb-6 text-xs font-bold uppercase tracking-widest text-gray-400 dark:text-gray-500">
+                Certifications
+              </h2>
+              <div className="space-y-4">
+                <div className="flex items-start gap-2 text-base text-gray-600 dark:text-gray-400">
+                  <span>•</span>
+                  <span>
+                    Claude Code in Action — Anthropic{" "}
+                    <a href="https://verify.skilljar.com/c/rqkxjbgctqau" target="_blank" rel="noopener noreferrer" className="text-black dark:text-white underline underline-offset-4 hover:text-gray-600 dark:hover:text-gray-300">
+                      Certificate
+                    </a>
+                  </span>
+                </div>
+                <div className="flex items-start gap-2 text-base text-gray-600 dark:text-gray-400">
+                  <span>•</span>
+                  <span>
+                    CS50x: Introduction to Computer Science — Harvard University{" "}
+                    <a href="https://drive.google.com/file/d/1YsOnwboIJm7RjnIuduEPE-YD640_zdER/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-black dark:text-white underline underline-offset-4 hover:text-gray-600 dark:hover:text-gray-300">
+                      Certificate
+                    </a>
+                  </span>
+                </div>
               </div>
             </div>
 
