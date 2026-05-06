@@ -536,7 +536,7 @@ export default function Home() {
           <FaXTwitter className="h-5 w-5" />
         </a>
         <a
-          href="https://drive.google.com/file/d/17bbTzUII0e0fnxlKBk1qBJVYsNZFGsZt/view?usp=sharing"
+          href="https://drive.google.com/file/d/1ZR7BNnw3RpV_JnD4XWn2181F5qJs_NsH/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-500 dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors hover:scale-110"
