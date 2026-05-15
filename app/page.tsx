@@ -183,26 +183,7 @@ export default function Home() {
 
             <div className="w-full space-y-4 text-left text-base leading-relaxed text-gray-600 dark:text-gray-400 sm:text-lg md:text-xl">
               <p>
-                a final-year software engineering student at{" "}
-                <HoverCard>
-                  <HoverCardTrigger asChild>
-                    <a
-                      href="https://en.wikipedia.org/wiki/Lahore_Garrison_University"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="underline underline-offset-4 hover:text-black dark:hover:text-white transition-colors"
-                    >
-                      lahore garrison university
-                    </a>
-                  </HoverCardTrigger>
-                  <HoverCardContent className="w-72 p-4 text-base leading-relaxed text-gray-800 dark:text-gray-200 bg-white dark:bg-black border border-gray-200 dark:border-gray-700 rounded-xl shadow-lg backdrop-blur-sm">
-                    <p>
-                      A private university in Lahore offering undergraduate and postgraduate programs with a focus on engineering, management, and social sciences.
-                    </p>
-                  </HoverCardContent>
-                </HoverCard>{" "}
-                (3.81 gpa) with hands-on experience in full-stack development and ai-powered
-                applications, building production-ready systems end to end.
+                software engineer with hands-on experience in full-stack development, mobile applications, and ai systems.
               </p>
               <p>
                 interned at{" "}
@@ -223,7 +204,7 @@ export default function Home() {
                     </p>
                   </HoverCardContent>
                 </HoverCard>{" "}
-                and datarigel — building production-ready apis, iot-integrated mobile apps, and ai-powered platforms using next.js, react native, node.js, and aws.
+                and datarigel — building production-ready apis, iot-integrated mobile apps, and ai-powered platforms. proficient in next.js, react native, node.js, and aws. looking to contribute to innovative products as a full-time software engineer.
               </p>
             </div>
 
@@ -235,6 +216,21 @@ export default function Home() {
                 Experience
               </h2>
               <div className="space-y-12">
+                <ExperienceItem
+                  title="DataRigel"
+                  role="Lahore, Pakistan"
+                  collapsible={true}
+                  link=""
+                >
+                  <div className="space-y-2">
+                    <p>Associate Software Engineer</p>
+                    <p>Apr 2026 – Present</p>
+                    <p>• Boosted sensor data throughput by 40% on a local Android IoT app by replacing fire-and-forget function calls with async-synced Windsor integration, eliminating data loss during high-frequency reads.</p>
+                    <p>• Extended 5+ React Native screens with real-time sensor visualizations and state-driven UI updates, improving data visibility and reducing manual monitoring effort for field operators.</p>
+                    <p>• Secured AWS infrastructure by migrating S3 buckets from public to private access via CloudFront and relocating EC2 instances across regions, strengthening data protection and reducing latency.</p>
+                  </div>
+                </ExperienceItem>
+
                 <ExperienceItem
                   title="DataRigel"
                   role="Lahore, Pakistan"
@@ -536,7 +532,7 @@ export default function Home() {
           <FaXTwitter className="h-5 w-5" />
         </a>
         <a
-          href="https://drive.google.com/file/d/1ZR7BNnw3RpV_JnD4XWn2181F5qJs_NsH/view?usp=sharing"
+          href="https://drive.google.com/file/d/1fWvW0FyCditEiskNVPAejF4GqyJaguwW/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-500 dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors hover:scale-110"

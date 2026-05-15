@@ -3,11 +3,17 @@ export const getMarkdownContent = (time: string) => `# Khizar Qamar
 
 ## About
 
-Final-year Software Engineering student at Lahore Garrison University (3.81 GPA) with hands-on experience in full-stack development, mobile applications, and AI systems. Interned at Netsol Technologies and DataRigel building production-ready APIs, IoT-integrated mobile apps, and AI-powered platforms. Proficient in Next.js, React Native, Node.js, and AWS.
+Software Engineer with hands-on experience in full-stack development, mobile applications, and AI systems. Interned at Netsol Technologies and DataRigel building production-ready APIs, IoT-integrated mobile apps, and AI-powered platforms. Proficient in Next.js, React Native, Node.js, and AWS. Looking to contribute to innovative products as a full-time software engineer.
 
 
 
 ## Experience
+
+### DataRigel
+Associate Software Engineer | Apr 2026 – Present | Lahore, Pakistan
+*   Boosted sensor data throughput by 40% on a local Android IoT app by replacing fire-and-forget function calls with async-synced Windsor integration, eliminating data loss during high-frequency reads.
+*   Extended 5+ React Native screens with real-time sensor visualizations and state-driven UI updates, improving data visibility and reducing manual monitoring effort for field operators.
+*   Secured AWS infrastructure by migrating S3 buckets from public to private access via CloudFront and relocating EC2 instances across regions, strengthening data protection and reducing latency.
 
 ### DataRigel
 Software Engineer Intern | Feb 2026 – Apr 2026 | Lahore, Pakistan
